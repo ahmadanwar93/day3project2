@@ -1,0 +1,222 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /* background-color: black; */
+  font-family: sans-serif;
+}
+
+head,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+.container-fluid {
+  margin: 0 auto;
+  background-image: url(./images/bg-2.png);
+  /* background-size: cover; */
+  width: 1240px;
+  height: 1754px;
+}
+.topDiv {
+  height: 350px;
+  width: 100%;
+  /* background-color: blue; */
+}
+.midDiv {
+  height: 900px;
+  width: 100%;
+  /* background-color: chartreuse; */
+}
+.bottomDiv {
+  height: 504px;
+  width: 100%;
+  /* background-color: darkmagenta; */
+}
+.topDiv-left {
+  height: 250px;
+  /* background-color: darkorange; */
+  width: 370px;
+  display: inline-block;
+}
+.topDiv-right {
+  width: 445px;
+  height: 250px;
+  /* background-color: red; */
+  display: inline-block;
+  float: right;
+}
+.vertLine1 {
+  height: 100%;
+  background-color: white;
+  width: 10px;
+  margin-left: 134px;
+  display: inline-block;
+}
+.month,
+.year {
+  display: inline-block;
+  color: white;
+  padding-left: 30px;
+  /* height: 100%; */
+}
+.year {
+  font-size: 15px;
+  width: auto;
+  margin-top: 150px;
+  /* background-color: red; */
+}
+.month {
+  height: 100%;
+  width: auto;
+  font-size: 35px;
+  /* background-color: coral; */
+}
+
+.topDiv-right p {
+  color: white;
+  font-size: 25px;
+  font-weight: bolder;
+  width: 90px;
+  display: inline-block;
+  padding-left: 130px;
+}
+
+.horLine1 {
+  width: 120px;
+  height: 10px;
+  display: inline-block;
+  background-color: white;
+  float: right;
+  margin-right: 100px;
+  margin-top: 6px;
+}
+
+.topDiv-right {
+  padding-top: 160px;
+}
+.surrealism p {
+  font-size: 165px;
+  font-weight: bolder;
+  color: white;
+}
+
+.horLine2 {
+  width: 743px;
+  height: 10px;
+  background-color: white;
+  margin-right: 100px;
+  float: right;
+}
+
+.sur,
+.ism {
+  margin-left: 134px;
+  margin-bottom: 120px;
+}
+
+.real {
+  margin-left: 700px;
+  margin-bottom: 120px;
+  /* float: right; */
+}
+
+.surrealism {
+  position: relative;
+}
+
+.shoes {
+  position: absolute;
+  top: -50px;
+  left: 380px;
+  /* z-index: 0; */
+}
+
+.moon {
+  position: absolute;
+  top: 220px;
+  left: 250px;
+}
+
+.pineapple {
+  position: absolute;
+  top: 400px;
+  left: 560px;
+}
+
+.ism {
+  margin-bottom: 0px;
+}
+.horLine3 {
+  width: 743px;
+  height: 10px;
+  background-color: white;
+  margin-top: 70px;
+  /* margin-right: 100px; */
+  margin-left: 134px;
+  float: left;
+}
+
+.horLine4 {
+  /* padding-top: 400px; */
+  /* margin-bottom: 20px; */
+  /* margin-left: 134px; */
+  width: 40px;
+  height: 10px;
+  background-color: white;
+  position: absolute;
+  top: 250px;
+  left: 134px;
+}
+
+.textFree {
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  width: 150px;
+  position: absolute;
+  top: 275px;
+  left: 134px;
+}
+
+.horLine5 {
+  /* margin-top: 400px; */
+  /* margin-top: 220px; */
+  /* margin-left: 650px; */
+  position: absolute;
+  top: 100px;
+  left: 800px;
+  width: 120px;
+  height: 10px;
+  background-color: white;
+}
+
+.bottomDiv {
+  position: relative;
+}
+
+.exhibition {
+  position: absolute;
+  top: 120px;
+  left: 800px;
+  color: white;
+}
+
+.vertLine2 {
+  height: 352px;
+  background-color: white;
+  width: 10px;
+  position: absolute;
+  top: 150px;
+  left: 750px;
+}
+.artistDescription {
+  position: absolute;
+  color: white;
+  top: 250px;
+  left: 800px;
+}
+.artistDescription p {
+  margin-bottom: 10px;
+}
